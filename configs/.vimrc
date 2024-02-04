@@ -68,3 +68,11 @@ cs add $CSCOPE_DB
 
 set omnifunc=ccomplete#Complete
 set tags=/esw/san5/gcpin/code/tags
+
+"set root directory as the one with .ctrlp file(dummy file)
+let g:ctrlp_root_markers = ['.ctrlp']
+let g:ctrlp_max_files=0
+let g:ctrlp_max_depth=40
+let g:ctrlp_follow_symlinks=1
+let g:ctrlp_match_window = 'min:4,max:999'
+set wildignore+=*/.git/*,*/tmp/*,*.swp/*,*/node_modules/*,*/temp/*,*/builds/*,*/build/*,*/Builds/*,*/ProjectSettings/*
