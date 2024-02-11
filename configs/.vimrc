@@ -23,9 +23,6 @@ set visualbell
 " set to auto read when a file is changed from the outside
 set autoread
 
-" set 7 lines to the cursor - when mving vertically using j/k
-"set so=7
-
 " show matching brackets when text indicator is over them
 set showmatch
 
@@ -37,7 +34,11 @@ syntax enable
 
 "wrap lines
 set wrap
-colorscheme slate
+
+"colorscheme slate
+set background=dark
+colorscheme PaperColor
+
 let mapleader = ','
 
 nnoremap <leader>o :NERDTreeFocus<CR>
@@ -58,21 +59,20 @@ nnoremap <leader>g :tn<CR>
 nnoremap <leader>h :tp<CR>
 nnoremap <leader>s :ts<CR>
 
-" resize current buffer by +/- 5 
-nnoremap <leader-left> :vertical resize -5<CR>
-nnoremap <leader-down> :resize +5<CR>
-nnoremap <leader-up> :resize -5<CR>
-noremap <leader-right> :vertical resize +5<CR>
+"CScope
 cs add $CSCOPE_DB
 
-
+"Autocompletion using ctags
 set omnifunc=ccomplete#Complete
 set tags=/esw/san5/gcpin/code/tags
 
+"ctrlp
 "set root directory as the one with .ctrlp file(dummy file)
-let g:ctrlp_root_markers = ['.ctrlp']
+let g:ctrlp_root_markers = ['.ctrlp'] "DO NOT FORGET TO ADD .ctrlp dummy file in the root directory
 let g:ctrlp_max_files=0
 let g:ctrlp_max_depth=40
 let g:ctrlp_follow_symlinks=1
 let g:ctrlp_match_window = 'min:4,max:999'
 set wildignore+=*/.git/*,*/tmp/*,*.swp/*,*/node_modules/*,*/temp/*,*/builds/*,*/build/*,*/Builds/*,*/ProjectSettings/*
+
+"##end##
