@@ -59,6 +59,12 @@ nnoremap <leader>g :tn<CR>
 nnoremap <leader>h :tp<CR>
 nnoremap <leader>s :ts<CR>
 
+"window size adjust
+nnoremap <leader>> :vertical resize +5
+nnoremap <leader>< :vertical resize -5
+nnoremap <leader>+ :resize +5
+nnoremap <leader>- :resize -5
+
 "CScope
 cs add $CSCOPE_DB
 
