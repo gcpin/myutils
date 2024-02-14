@@ -1,4 +1,6 @@
 set number
+set rnu
+
 set ic
 set nohls
 set incsearch
@@ -16,6 +18,10 @@ set hidden
 " Indent
 set ai
 set si
+
+" Highlight current line
+set cursorline
+:highlight Cursorline cterm=bold ctermbg=black
 
 set noerrorbells
 set visualbell
@@ -40,6 +46,11 @@ set background=dark
 colorscheme PaperColor
 
 let mapleader = ','
+
+nnoremap <up> <nop>
+nnoremap <down> <nop>
+nnoremap <left> <nop>
+nnoremap <right> <nop>
 
 nnoremap <leader>o :NERDTreeFocus<CR>
 nnoremap <leader>t :NERDTreeToggle<CR>
