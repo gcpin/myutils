@@ -51,6 +51,7 @@ nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
 nnoremap <right> <nop>
+nnoremap J <nop>
 
 nnoremap <leader>o :NERDTreeFocus<CR>
 nnoremap <leader>t :NERDTreeToggle<CR>
