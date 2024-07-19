@@ -5,7 +5,7 @@
 # The names of all the repositories that you want to grep
 # Example:
 #   REPOS="vim spring-framework gradle phantomjs"
-REPOS="ipl-op libekb_p10-op openpower-dbus-interfaces-obmc openpower-debug-collector-obmc openpower-hw-diags-obmc openpower-hw-isolation-io openpower-proc-control-obmc pdata-op pdbg-op phosphor-debug-collector-obmc phosphor-logging-obmc pub-ekb-op"
+REPOS="ipl libekb_p10 openpower-debug-collector openpower-hw-diags openpower-hw-isolation openpower-proc-control pdata pdbg phosphor-debug-collector phosphor-logging"
 
 ##########################
 # OPTIONAL CONFIGURATION #
@@ -20,4 +20,4 @@ GIT_GREP_OPTIONS="-I -n"
 # If you leave this blank, then you must be in your source code base directory for multi to work.
 # Example:
 #   BASE_DIR="~/src"
-BASE_DIR="/esw/san5/gcpin/code/remote"
+BASE_DIR="/esw/san5/gcpin/us/remote"
