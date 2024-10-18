@@ -1,0 +1,11 @@
+git clone git@github.com:open-power/ipl.git && cd ipl && git checkout main && cd ..
+git clone git@github.com:open-power/pdbg.git && cd pdbg && git checkout master && cd ..
+git clone git@github.com:ibm-openbmc/openpower-debug-collector.git && cd openpower-debug-collector && git checkout 1110 && cd ..
+git clone git@github.com:ibm-openbmc/openpower-hw-isolation.git && cd openpower-hw-isolation && git checkout main && cd ..
+git clone git@github.com:open-power/pdata.git && cd pdata && git checkout main && cd ..
+git clone git@github.com:ibm-openbmc/phosphor-debug-collector.git && cd phosphor-debug-collector && git checkout 1110 && cd ..
+git clone git@github.com:open-power/libekb_p10.git && cd libekb_p10 && git checkout main && cd ..
+git clone git@github.com:ibm-openbmc/openpower-hw-diags.git && cd openpower-hw-diags && git checkout master && cd ..
+git clone git@github.com:openbmc/openpower-proc-control.git && cd openpower-proc-control && git checkout master && cd ..
+git clone git@github.com:ibm-openbmc/phosphor-logging.git && cd phosphor-logging && git checkout master && cd ..
+git clone git@github.com:open-power/guard.git && cd guard && git checkout main && cd ..
