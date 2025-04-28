@@ -19,6 +19,12 @@ set hidden
 set ai
 set si
 
+"http://vimcasts.org/episodes/tabs-and-spaces/
+set expandtab
+set ts=4
+set sts=4
+set sw=4
+
 " Highlight current line
 set cursorline
 :highlight Cursorline cterm=bold ctermbg=black
